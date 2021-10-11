@@ -67,12 +67,11 @@ body{
 }
 
 .navbar{
-background:var(--sub);
 top:65px;
 }
 
 .nav-buttons{
-    background-color: var(--page-buttons);
+    background-color: var(--page-butyons);
 }
 
 button{
@@ -92,6 +91,7 @@ float:right;
 
 .navbar{
     float:right;
+    top:2px;
 }
 
 .navbar-toggler{
@@ -113,7 +113,7 @@ float:right;
     color:var(--text);
 }
 .nav-item{
-    background:var(--sub);
+    background:linear-gradient(180deg,var(--main),var(--sub));
     margin-top:20px;
     top:20px;
 
@@ -231,3 +231,4 @@ img{
         background-color:pink;
         offset-position: -90%;
     }
+    /* yes! */
