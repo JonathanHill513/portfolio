@@ -26,6 +26,9 @@ h2{
     margin: 100px 0px 1px 0px;
     text-shadow: 2px 2px var(--secondary);
 }
+.specialhr{
+margin-bottom:-15px;
+}
 .display-1{
 float:left;
 padding: 20px 0px 0px 100px;
