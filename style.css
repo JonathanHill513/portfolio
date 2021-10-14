@@ -71,10 +71,11 @@ body{
 
 .navbar{
 top:65px;
+
 }
 
 .nav-buttons{
-    background-color: var(--page-butyons);
+    background-color: var(--page-buttons);
 }
 
 button{
@@ -128,6 +129,16 @@ float:right;
 hr{
     background-color: var(--sub);
 }
+ul{
+    position: relative;
+    list-style-type: none;
+    
+}
+ul img{
+    border: 10px solid var(--main);
+    margin:10px;
+    
+}
 
 /* media stuff */
 @media(max-width:1280px){
@@ -142,6 +153,7 @@ hr{
 img{
     width:800px;
 }
+
 }
 
 @media(max-width:1024px){
@@ -234,4 +246,4 @@ img{
         background-color:pink;
         offset-position: -90%;
     }
-    /* yes! */
+    /* yes! */}
